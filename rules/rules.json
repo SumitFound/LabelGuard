@@ -1,0 +1,11 @@
+[
+ {"id":"LM-TODO-01","description":"Manufacturer, packer, or importer name and address is present","field":"manufacturer","check":"present","params":{},"severity":"high","reference":"TODO verify against official gazette","verified":false},
+ {"id":"LM-TODO-02","description":"Common or generic name is present","field":"generic_name","check":"present","params":{},"severity":"medium","reference":"TODO verify against official gazette","verified":false},
+ {"id":"LM-TODO-03","description":"Net quantity is present with an accepted unit","field":"net_quantity","check":"quantity","params":{"units":["g","kg","mg","ml","l","cl","nos"]},"severity":"high","reference":"TODO verify against official gazette","verified":false},
+ {"id":"LM-TODO-04","description":"Month and year of manufacture, packing, or import is present","field":"date","check":"present","params":{},"severity":"high","reference":"TODO verify against official gazette","verified":false},
+ {"id":"LM-TODO-05","description":"MRP is present and states inclusive of all taxes","field":"mrp","check":"mrp_inclusive","params":{},"severity":"high","reference":"TODO verify against official gazette","verified":false},
+ {"id":"LM-TODO-06","description":"Consumer care contact is present","field":"consumer_care","check":"present","params":{},"severity":"medium","reference":"TODO verify against official gazette","verified":false},
+ {"id":"LM-TODO-07","description":"Country of origin is present when text suggests import","field":"country_origin","check":"conditional_origin","params":{},"severity":"medium","reference":"TODO verify against official gazette","verified":false},
+ {"id":"LM-TODO-08","description":"Net quantity numeral height meets minimum print height","field":"net_quantity","check":"height","params":{"min_mm":"TODO verify against official gazette"},"severity":"medium","reference":"TODO verify against official gazette","verified":false},
+ {"id":"LM-TODO-09","description":"Barcode is decoded and has a valid EAN-13 or UPC check digit","field":"barcode","check":"barcode","params":{},"severity":"medium","reference":"TODO verify against official gazette","verified":false}
+]

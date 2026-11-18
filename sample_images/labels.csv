@@ -1,0 +1,7 @@
+filename,expected_verdict
+label_1.png,PASS
+label_2.png,PASS
+label_3.png,PASS
+label_4.png,FAIL
+label_5.png,FAIL
+label_6.png,FAIL
